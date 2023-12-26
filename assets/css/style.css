@@ -1,0 +1,258 @@
+                        /********************header section*************************/
+
+.header{
+	width:100%;
+	background-image:linear-gradient(rgb(194,66,61,0.7),rgb(194,66,61,0.7)),url('../images/layer 5.jpg');
+	background-repeat:no repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	padding:45px 0 65px;
+	overflow:hidden;
+}
+
+.logo{
+	display: inline-block;
+	line-height:59px;
+	
+}
+
+.navbar ul{
+	display:inline-block;
+}
+
+.navbar ul li {
+	display:inline-block;
+	margin-left:15px;
+}
+
+.navbar li a{
+	padding:10px 10px;
+	color:#ffffff;
+	font-weight:normal;
+    font-size:16px;
+    line-height:54px;
+    display: inline-block;
+	text-transform:uppercase;
+	transition:all 0.7s linear;
+}
+
+li a:hover,
+li a::after,
+li a::before{
+	   text-decoration:underline;
+} 
+
+.chocolate-info h1{
+      color:#ffffff;
+	  font-size:52px;
+	  font-weight:bold;
+	  margin-bottom:55px;
+      text-transform:uppercase;	  
+}
+
+.chocolate-info p{
+	color:#ffffff;
+	font-size:32px;
+	font-weight:normal;
+	margin-bottom:50px;
+}
+
+.chocolate-info a{
+	color:#ffffff;
+	background-color:#282828;
+	padding:15px 50px 15px 35px;
+	text-transform:uppercase;
+	border-radius:50px;
+	transition:all 0.5 linear;
+}
+
+.chocolate-info a:hover,
+.chocolate-info a:after,
+.chocolate-info a:focus{
+	color:#282828;
+	background-color:#ffffff;
+	border:2px solid #282828;
+}
+
+.chocolate-info  i{
+	margin-right:25px;
+	font-size:45px;
+	vertical-align:middle;
+}
+
+.header .mob-img{
+	position:relative;
+}
+
+.header .mob-img img{
+	position:absolute;
+	right:20px;
+	top:-40px;
+}
+
+                            /*******************************header section ends*******************************/
+							
+							
+							/************************features section starts******************************/
+
+.features{
+	width:100%;
+	background-color:#ffffff;
+	padding:80px 0 100px;
+}						
+
+.features h2{
+	color:#8a8a8a;
+	font-size:52px;
+	font-weight:bold;
+	margin-bottom:40px;
+	text-transform:uppercase;
+}
+
+.features p{
+	color:#3a3a3a;
+	font-size:22px;
+	font-weight:normal;
+	margin-bottom:65px;
+}
+
+.features h3{
+	color:#1a1a1a;
+	font-size:25px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-top:37px;
+}
+
+.features p{
+	color:#646464;
+	font-size:18px;
+	font-weight:normal;
+	margin-top:45px;
+}
+                    /**************************************features section end**********************/
+	
+                                    /***********************hero section starts*********************/	
+
+.hero-section{
+	width:100%;
+	/*padding:50px 0 50px;*/
+	background-image:url('../images/clown-img.jpg');
+	background-repeat:no repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+
+.hero-section h1{
+	  color:#ffffff;
+	  font-size:52px;
+	  font-weight:bold;
+	  margin-bottom:55px;
+      text-transform:uppercase;
+}
+
+.hero-section p{
+	color:#646464;
+	font-size:24px;
+	font-weight:normal;
+	margin-bottom:70px;
+}
+
+.hero-section span{
+	color:#f55150;
+}
+
+.hero-section a{
+	background-color:#f55150;
+	color:#ffffff;
+	text-transform:uppercase;
+	padding:20px 25px;
+	border-radius:45px;
+	transition:all 0.5s linear;
+}
+
+.hero-section a:hover,
+.hero-section a:active,
+.hero-section a:focus{
+	border:2px solid #f55150;
+	color:#f55150;
+	background-color:#ffffff;
+}
+
+                          /********************************hero-scetion end*****************************************/
+						  
+						  /********************************footer section end***************************************/
+
+.post{
+	width:100%;
+	background-color:#2e2e38;
+	padding:100px 0 145px;
+}						  
+
+.post .logo{
+	margin-bottom:60px;
+}
+
+.f-list h4{
+	 color:#ffffff;
+	 font-size:20px;
+	 font-weight:bold;
+	 margin-bottom:30px;
+	 text-transform:capitalize;
+}
+
+
+.post .f-list .box{
+	width:57px;
+	height:40px;
+	background-color:#e74b3b;
+	display:inline-block;
+}
+
+.f-list ul li{
+	display:table;
+	clear:both;
+	width:100%;
+	margin-bottom:25px;
+}
+
+.f-list ul li div{
+     float:left;
+}
+
+.f-list .donut-info {
+	margin-left:15px;
+	padding-bottom:5px;
+}
+
+.f-list .donut-info p , .suits-list ul li, .about-info p{
+	color:#ffffff;
+	font-size:15px;
+	font-weight:normal;
+}
+
+.about-info p{
+	font-style:italic;
+}
+
+                                  /*********************main footer starts**************************/
+								  
+.footer{
+	background-color:#d7dedc;
+	width:100%;
+	padding:45px 0 45px;
+}
+
+.links ul li {
+	display:inline-block;
+}								  
+
+.links li a{
+	display:inline-block;
+}
+
+.footer .icons i{
+	margin-left:15px;
+}
